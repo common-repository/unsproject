@@ -1,0 +1,212 @@
+.unsproject-loader{
+    font-size:12px;
+    color: #808080;
+    margin-top:15px;
+}
+.unsproject-loader span {
+    animation-name: unsloaderBlink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.unsproject-loader span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.unsproject-loader span:nth-child(3) {
+    animation-delay: .4s;
+}
+
+@keyframes unsloaderBlink {
+    0% {
+        opacity: .2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+}
+
+.login #unsproject_qr_code_conatainer *{
+    margin: 0 auto;
+    text-align: center;
+}
+.login #unsproject_qr_code_conatainer h2{
+   padding:25px 0;
+}
+#unsproject_qr_code_conatainer a{
+    text-align: justify;
+    word-break: break-all;
+}
+
+.login .uns-login-button{
+    float:none;
+    margin: 0 auto;
+    text-align: center;
+}
+/**
+    LOGIN SCREEN - REGISTER POPUP
+ */
+.uns-popup-register{
+    display: none;
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 1001;
+    padding: 20px !important;
+    background: #FFF !important;
+    width: 500px !important;
+    height: 470px !important;
+    left: 0 !important;
+    right: 0 !important;
+    border: 1px solid #ccc !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.uns-popup-register .uns-register-icon{
+    background:url('../images/keys-success.svg') no-repeat center center;
+    width: 100%;
+    height: 60px;
+}
+
+.uns-popup-register.register{
+    display: block !important;
+    padding: 0 !important;
+    border-radius: 0.4em;
+    -webkit-box-shadow: 1px 5px 15px 5px #7F7F7F;
+    box-shadow: 1px 5px 15px 5px #7F7F7F;
+}
+.uns-popup-register button[type="submit"]{
+    float: none;
+    text-align: center;
+    background: #00c !important;
+    padding: 5px 15px !important;
+    margin-top:10px;
+}
+
+.uns-popup-register h2{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #000;
+}
+.uns-popup-register .uns-register-header h3{
+    font-weight: normal;
+}
+
+.uns-popup-register .uns-register-header{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.uns-popup-register .uns-register-content{
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.uns-popup-register .unsRegisterTitle{
+    font-weight: bold;
+    font-size:18px;
+}
+.uns-popup-register .uns-register-content input{
+    color: #222222;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.uns-popup-register .uns-register-content .unsTextMuted{
+    color:#CCC;
+    font-size:12px;
+    margin-top:5px;
+}
+
+.uns-popup-register a.unsicon-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    background:url('../images/close.png') no-repeat center center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.uns-popup-register .uns-input-wrapper {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border-radius: 0.4em;
+}
+
+.uns-popup-register .uns-input-wrapper input{
+    border: none;
+    flex: 1;
+    height: 20px;
+    margin: 0;
+    padding: 0 10px;
+}
+.uns-popup-register .uns-input-wrapper .uns-requied{
+    line-height: 39px;
+    padding: 0 5px;
+    color: #bbb;
+}
+
+.uns-popup-register .unsRegister-username-label,
+.uns-popup-register .unsRegister-email-label{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.unsOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(123,123,123,0.5);
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+body.unsOverFlowHidden{
+    overflow: hidden;
+}
+.login-form-uns-qr-code-container{
+    margin: 10px auto 0;
+    max-width: 320px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#orContainer{
+    width: 100%;
+    float: left;
+}
+#orContainer .left-part,
+#orContainer .right-part{
+    background: #CCCCCC;
+    display: inline-block;
+    height: 1px;
+    width: 40%;
+    float: left;
+}
+#orContainer .center-part{
+    display: inline-block;
+    float: left;
+    line-height: 38px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 99px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+}

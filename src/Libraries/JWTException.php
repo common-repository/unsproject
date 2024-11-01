@@ -1,0 +1,30 @@
+<?php
+
+
+namespace UNSProjectApp\Libraries;
+
+class JWTException extends \Exception
+{
+    const ERR_EMPTY_KEY = 1;
+    const ERR_WRONG_NUMBER_OF_SEGMENTS = 2;
+    const ERR_INVALID_HEADER_ENCODING = 3;
+    const ERR_INVALID_CLAIMS_ENCODING = 4;
+    const ERR_INVALID_SIGNATURE_ENCODING = 5;
+    const ERR_EMPTY_ALGORITHM = 6;
+    const ERR_ALGORITHM_NOT_SUPPORTED = 7;
+    const ERR_ALGORITHM_NOT_ALLOWED = 8;
+    const ERR_INVALID_KID = 9;
+    const ERR_EMPTY_KID = 10;
+    const ERR_SIGNATURE_VERIFICATION_FAILED = 11;
+    const ERR_TOKEN_NBF = 12;
+    const ERR_TOKEN_IAT = 13;
+    const ERR_TOKEN_EXPIRED = 14;
+    const ERR_ALGORITHM_NOT_SUPPORTED_IN_SIGNATURE = 15;
+    const ERR_OPENSSL_SIGN = 16;
+    const ERR_UNSUPPORTED_SIGN_FUNCTION = 17;
+    const ERR_ALGORITHM_NOT_SUPPORTED_VERIFY = 18;
+    const ERR_OPEN_SSL_VERIFY = 19;
+    const ERR_JSON_DECODE_NON_NULL_INPUT = 20;
+    const ERR_JSON_ENCODE_NON_NULL_INPUT = 21;
+    const ERR_UNKNOWN_ERROR = 22;
+}

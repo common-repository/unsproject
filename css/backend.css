@@ -1,0 +1,246 @@
+#unsproject-main {
+    width: 100%;
+    display: block;
+}
+
+#unsproject-main * {
+    box-sizing: border-box;
+}
+
+#unsproject-main .content-center {
+    text-align: center;
+}
+
+#unsproject-main .content-center * {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#unsproject-main .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.uns-status-connected {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.uns-status-connected span {
+    color: green;
+}
+
+.uns-button {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transition: transform .2s; /* Animation */
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.uns-button:hover {
+    transform: scale(1.1);
+    background-blend-mode: darken;
+}
+
+.uns-button.blue-button {
+    background-color: #167ce9;
+    color: #FFF;
+    padding:5px 10px;
+    border: none;
+}
+
+.reset_plugin_data_container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.uns-register-form .required {
+    color: red;
+}
+
+.uns-register-form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.uns-register-form input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #CCC;
+    min-width: 80%;
+}
+
+.connection_status * {
+    box-sizing: border-box;
+}
+.connection_status h2{
+    font-size: 16px;
+    margin-left: 0;
+    font-weight: bold;
+}
+.connection_status .row {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.connection_status .row label {
+    width: 100%;
+    font-weight: bold;
+
+    line-height: 14px;
+    margin-bottom: 12px;
+    float: left;
+}
+
+.connection_status .row input,
+.connection_status .row textarea {
+    border: 1px solid #ccc;
+}
+
+.connection_status .row textarea {
+    height: 200px;
+}
+
+.terms_of_service {
+    font-weight: normal;
+    color: #999;
+    line-height: 22px;
+}
+
+.uns-project-terms-popup {
+    box-sizing: border-box;
+    display: none;
+    position: absolute;;
+    top: 10px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    border-radius: 0.3em;
+    background: #FFF;
+    border: 1px solid #ccc;
+    height: 80%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.uns-project-terms-popup h1 {
+    text-align: center;
+}
+
+.uns-popup-footer {
+    background: #ccc;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.uns-project-terms-popup .close {
+    background: #FFF;
+    border: 1px solid #333;
+}
+
+.uns-project-terms-popup .close:hover {
+    transform: translate(1.1);
+}
+
+.uns-checkbox-container{
+    display: inline-block;
+    padding: 10px 20px;
+    height: 40px;
+    min-width: 85px;
+}
+#unsproject-srp{
+    margin-top:20px;
+    width: 100%;
+    font-size: 12px;
+}
+
+#unsproject-srp .save_changes_container{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#unsproject-srp h1{
+    font-size: 16pt;
+    font-weight: bold;
+}
+#unsproject-srp .learn_more{
+    float: right;
+    font-size: 12px;
+    margin: 0 10px;
+    background: #ccc;
+    padding: 5px 10px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+#unsproject-srp .learn_more:hover{
+    background:#ddd;
+    color:#111;
+}
+
+#unsproject-srp .srp-container{
+    margin-top:20px;
+}
+
+#unsproject-connection_status{
+    font-size:12px;
+    margin-top:10px;
+}
+#unsproject-connection_status .custom-container,
+#unsproject-srp .custom-container{
+    background:#FFF;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+#unsproject-connection_status .custom-container.top-round,
+#unsproject-srp .custom-container.top-round{
+    border-top-left-radius:0.3em;
+    border-top-right-radius: 0.3em;
+}
+#unsproject-connection_status .custom-container.bottom-round,
+#unsproject-srp .custom-container.bottom-round{
+    border-bottom-left-radius:0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+#unsproject-connection_status .custom-container.no-top-border,
+#unsproject-srp .custom-container.no-top-border{
+    border-top: 0;
+}
+#unsproject-srp b.custom-title{
+    line-height: 40px;
+    font-size: 16pt;
+}
+#unsproject-srp .custom-control-label{
+    line-height: 24px;
+    font-weight: bold;
+    font-size:14px;
+}
+#unsproject-srp p.custom-info{
+    word-break: break-word;
+    text-align: justify;
+    max-width: 74%;
+}
+
+#unsproject-srp button.button{
+    margin-top: 20px;
+}
+
+.white-background-container{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #ccc;
+    background:#fff;
+    margin: 10px 0;
+
+}
